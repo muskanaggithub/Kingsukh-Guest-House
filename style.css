@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+.nav-container{
+    height:70px; 
+    width:100%;
+    background-color: green;
+
+}
+.heading h3{
+    color:beige;
+    font-size: 2rem;
+    position:relative;
+    top:13px;
+}
+.nav-items a{
+    text-align: center;
+    position:relative;
+    bottom:20px;
+    left:35%;
+    font-size: 1.8rem;
+    margin:0;
+    text-decoration: none;
+    color: aliceblue;
+    color:beige;
+}
+.nav-items button{
+    position: relative;
+    left:50%;
+    bottom:20px;
+    margin:0;
+    font-size: 1.2rem;
+    background-color:chartreuse;
+}
+.content{
+    height:750px;
+    width:100%;
+    background-image: url("./ayodhya.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content p{
+    font-size: 2rem;
+    text-align: center;
+    color:brown;
+    position: relative;
+    top:20%;
+    font-style: italic;
+    text-shadow: green 5px 0px 10px;
+    animation: mymove 3s infinite;
+    animation-timing-function:ease;
+}
+@keyframes mymove {
+    from {left: 30px;}
+    to {left: 50px;}
+  }
+
+.content h1{
+    font-size:4.5rem;
+    text-align: center;
+    color:black;
+    position: relative;
+    top:30%;
+    font-style: italic;
+    text-shadow: 1px 1px 2px brown;
+    animation: mymove 3s infinite;
+    animation-timing-function:ease;
+}
+    @keyframes mymove {
+        from {left: 30px;}
+        to {left: 50px;}
+      }
+
+.out-content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+}
+.image{
+    height:600px;
+    width:400px;
+    background-image: url("./out.jpg");
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 5px 15px 5px 5px black;
+}
+.img-content{
+    height:400px;
+    width:400px;
+}
+.img-content h1{
+    font-size: 1.5rem;
+    background-color:cadetblue;
+    background-size: cover;
+    color: aliceblue;
+}
+.img-content h2{
+    font-size:1.5rem;
+    color:darkblue;
+}
+.img-content p{
+    font-size: 1.4rem;
+    color:forestgreen;
+}
+#Address{
+    color:navy;
+}
+.a1{
+    height:150px;
+    width:500px;
+    position:relative;
+    text-align: center;
+    left:520px;
+}
+.a1 h2{
+    background-color: cadetblue;
+}
+.main-a{
+    height:80vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.a2-a3-style{
+    border-radius: 5%;
+    box-shadow: 10px  10px whitesmoke;
+    height: 70vh;
+    width: 19.5vw;
+    align-items:center;
+    justify-content: center;
+}
+.a2-a3-style button{
+    background-color: lightgray;
+    font-size: 1rem;
+}
+
+.a2-a3-style img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.a2-a3-style h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.a2-a3-style p{
+    padding-left: 20px;
+}
+
+.a2-a3-style button{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main-aa{
+    height:75vh;
+    width: 100vw;
+    display: flex;
+}
+.a4{
+    height:75vh;
+    width:75vw;
+    background-image: url("./palash.webp");
+}
+.a5{
+    height:75vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.a5 h1{
+    font-size: 2.5rem;
+    padding:25px;
+}
+.a5 h3{
+    padding-left: 25px;
+}
+.a5 p{
+    padding-left: 25px;
+   font-size: 2rem;
+}
+.a6{
+    height:75vh;
+    width:45vw;
+    background-image: url("./palash.webp");
+}
+.a7{
+    height:15vh;
+    width:80vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    margin-left: 10%;        
+    color: aliceblue;
+}
+
+.a7-block{
+    height: 10vh;
+    width: 20vw;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1%;
+    margin-bottom: 20px;
+}
+
+.grid-container{
+    height:70vh;
+    width:100vw;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    overflow-x: hidden;
+    }
+    .one{
+        height:40vh;
+        width:26vw;
+        background-size: cover;
+        background-image: url("./out.jpg");
+    }
+    .two{
+        height:40vh;
+        width:30vw;
+        background-size: cover;
+        background-image: url("./baranti.webp");
+    }
+    .three{
+        height:40vh;
+        width:30vw;
+        background-size: cover;
+        background-image: url("./mithonDam.webp");
+    }
+    .four{
+        height:40vh;
+        width:30vw;
+        background-size: cover;
+        background-image: url("./recep.jpg");
+    }
+    .five{
+        height:40vh;
+        width:26vw;
+        background-size: cover;
+        background-image: url("./room1.jpg");
+    }
+    .six{
+        height:40vh;
+        width:30vw;
+        background-size: cover;
+        background-image: url("./flower.jpg");
+    }
+    .seven{
+        height:40vh;
+        width:30vw;
+        background-size: cover;
+        background-image: url("./small.jpg");
+    }
+    .eight{
+        height:40vh;
+        width:20vw;
+        background-size: cover;
+        background-image: url("./service.jpg");
+    }
+    .main-footer{
+        height:60vh;
+        width:100vw;
+        background-color: black;
+
+    }
+    .f1 h2{
+        padding-top: 150px;
+        margin-left: 13%;
+        color: white;
+    }
+    .f1 p{
+        margin-top:8%;
+        margin-left:13%;
+        color:white;
+        padding-bottom: 110px;
+    }
+    
